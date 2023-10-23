@@ -1,0 +1,14 @@
+{
+  "pins" : [
+    {
+      "identity" : "muncheemodel",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:LucasVanDongen/MuncheeModel.git",
+      "state" : {
+        "revision" : "6a87eb7a976a6da9b6dce396db880d0662b2ab29",
+        "version" : "1.0.9"
+      }
+    }
+  ],
+  "version" : 2
+}

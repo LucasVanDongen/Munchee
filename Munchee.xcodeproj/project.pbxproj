@@ -1,0 +1,762 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A044D5DB2AF80BCB00E077EC /* ConfirmOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A044D5DA2AF80BCB00E077EC /* ConfirmOrderView.swift */; };
+		A044D5E02AF80C1300E077EC /* PayOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A044D5DF2AF80C1300E077EC /* PayOrderView.swift */; };
+		A044D5E22AF80C1E00E077EC /* PaidOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A044D5E12AF80C1E00E077EC /* PaidOrderView.swift */; };
+		A044D5E52AF811C200E077EC /* MuncheeModel in Frameworks */ = {isa = PBXBuildFile; productRef = A044D5E42AF811C200E077EC /* MuncheeModel */; };
+		A0522AD92AE658930045FD66 /* MuncheeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0522AD82AE658930045FD66 /* MuncheeApp.swift */; };
+		A0522ADB2AE658930045FD66 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0522ADA2AE658930045FD66 /* ContentView.swift */; };
+		A0522ADD2AE658960045FD66 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0522ADC2AE658960045FD66 /* Assets.xcassets */; };
+		A0522AE02AE658960045FD66 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0522ADF2AE658960045FD66 /* Preview Assets.xcassets */; };
+		A0522AEB2AE658970045FD66 /* MuncheeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0522AEA2AE658970045FD66 /* MuncheeTests.swift */; };
+		A0522AF52AE658970045FD66 /* MuncheeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0522AF42AE658970045FD66 /* MuncheeUITests.swift */; };
+		A0522AF72AE658970045FD66 /* MuncheeUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0522AF62AE658970045FD66 /* MuncheeUITestsLaunchTests.swift */; };
+		A0522B092AE674320045FD66 /* DeliveryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0522B082AE674320045FD66 /* DeliveryView.swift */; };
+		A0522B0F2AE6780B0045FD66 /* MuncheeModel in Frameworks */ = {isa = PBXBuildFile; productRef = A0522B0E2AE6780B0045FD66 /* MuncheeModel */; };
+		A0522B152AE679230045FD66 /* EditOrderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0522B142AE679230045FD66 /* EditOrderView.swift */; };
+		A0522B172AE679330045FD66 /* SelectRestaurantView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0522B162AE679330045FD66 /* SelectRestaurantView.swift */; };
+		A0522B1A2AE67A950045FD66 /* MuncheeModel in Frameworks */ = {isa = PBXBuildFile; productRef = A0522B192AE67A950045FD66 /* MuncheeModel */; };
+		A0522B1D2AE67B4D0045FD66 /* MuncheeModel in Frameworks */ = {isa = PBXBuildFile; productRef = A0522B1C2AE67B4D0045FD66 /* MuncheeModel */; };
+		A0522B312AE937B70045FD66 /* MockData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0522B302AE937B70045FD66 /* MockData.swift */; };
+		A0522B6F2AEAA5BB0045FD66 /* OrderModifiers.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0522B6E2AEAA5BB0045FD66 /* OrderModifiers.swift */; };
+		A0522B712AEAA5EA0045FD66 /* AddedProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0522B702AEAA5EA0045FD66 /* AddedProductView.swift */; };
+		A0522B732AEAA61B0045FD66 /* AvailableProductView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0522B722AEAA61B0045FD66 /* AvailableProductView.swift */; };
+		A0522B772AEFC1230045FD66 /* CurrencyFormatter.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0522B762AEFC1220045FD66 /* CurrencyFormatter.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0522AE72AE658960045FD66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0522ACD2AE658930045FD66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0522AD42AE658930045FD66;
+			remoteInfo = Munchee;
+		};
+		A0522AF12AE658970045FD66 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0522ACD2AE658930045FD66 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0522AD42AE658930045FD66;
+			remoteInfo = Munchee;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A044D5DA2AF80BCB00E077EC /* ConfirmOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfirmOrderView.swift; sourceTree = "<group>"; };
+		A044D5DF2AF80C1300E077EC /* PayOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PayOrderView.swift; sourceTree = "<group>"; };
+		A044D5E12AF80C1E00E077EC /* PaidOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaidOrderView.swift; sourceTree = "<group>"; };
+		A0522AD52AE658930045FD66 /* Munchee.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Munchee.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0522AD82AE658930045FD66 /* MuncheeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuncheeApp.swift; sourceTree = "<group>"; };
+		A0522ADA2AE658930045FD66 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A0522ADC2AE658960045FD66 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0522ADF2AE658960045FD66 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A0522AE12AE658960045FD66 /* Munchee.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Munchee.entitlements; sourceTree = "<group>"; };
+		A0522AE62AE658960045FD66 /* MuncheeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuncheeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0522AEA2AE658970045FD66 /* MuncheeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuncheeTests.swift; sourceTree = "<group>"; };
+		A0522AF02AE658970045FD66 /* MuncheeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MuncheeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0522AF42AE658970045FD66 /* MuncheeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuncheeUITests.swift; sourceTree = "<group>"; };
+		A0522AF62AE658970045FD66 /* MuncheeUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuncheeUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A0522B082AE674320045FD66 /* DeliveryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeliveryView.swift; sourceTree = "<group>"; };
+		A0522B142AE679230045FD66 /* EditOrderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditOrderView.swift; sourceTree = "<group>"; };
+		A0522B162AE679330045FD66 /* SelectRestaurantView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectRestaurantView.swift; sourceTree = "<group>"; };
+		A0522B302AE937B70045FD66 /* MockData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockData.swift; sourceTree = "<group>"; };
+		A0522B6C2AEA7A050045FD66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		A0522B6E2AEAA5BB0045FD66 /* OrderModifiers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderModifiers.swift; sourceTree = "<group>"; };
+		A0522B702AEAA5EA0045FD66 /* AddedProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddedProductView.swift; sourceTree = "<group>"; };
+		A0522B722AEAA61B0045FD66 /* AvailableProductView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AvailableProductView.swift; sourceTree = "<group>"; };
+		A0522B762AEFC1220045FD66 /* CurrencyFormatter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrencyFormatter.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0522AD22AE658930045FD66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0522B1A2AE67A950045FD66 /* MuncheeModel in Frameworks */,
+				A0522B1D2AE67B4D0045FD66 /* MuncheeModel in Frameworks */,
+				A044D5E52AF811C200E077EC /* MuncheeModel in Frameworks */,
+				A0522B0F2AE6780B0045FD66 /* MuncheeModel in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0522AE32AE658960045FD66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0522AED2AE658970045FD66 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A044D5D82AF80B9500E077EC /* SelectRestaurant */ = {
+			isa = PBXGroup;
+			children = (
+				A0522B162AE679330045FD66 /* SelectRestaurantView.swift */,
+			);
+			path = SelectRestaurant;
+			sourceTree = "<group>";
+		};
+		A044D5D92AF80B9E00E077EC /* EditOrder */ = {
+			isa = PBXGroup;
+			children = (
+				A0522B142AE679230045FD66 /* EditOrderView.swift */,
+				A0522B702AEAA5EA0045FD66 /* AddedProductView.swift */,
+				A0522B722AEAA61B0045FD66 /* AvailableProductView.swift */,
+				A0522B6E2AEAA5BB0045FD66 /* OrderModifiers.swift */,
+			);
+			path = EditOrder;
+			sourceTree = "<group>";
+		};
+		A044D5DC2AF80BD100E077EC /* ConfirmOrder */ = {
+			isa = PBXGroup;
+			children = (
+				A044D5DA2AF80BCB00E077EC /* ConfirmOrderView.swift */,
+			);
+			path = ConfirmOrder;
+			sourceTree = "<group>";
+		};
+		A044D5DD2AF80BD800E077EC /* Pay */ = {
+			isa = PBXGroup;
+			children = (
+				A044D5DF2AF80C1300E077EC /* PayOrderView.swift */,
+			);
+			path = Pay;
+			sourceTree = "<group>";
+		};
+		A044D5DE2AF80BE500E077EC /* Paid */ = {
+			isa = PBXGroup;
+			children = (
+				A044D5E12AF80C1E00E077EC /* PaidOrderView.swift */,
+			);
+			path = Paid;
+			sourceTree = "<group>";
+		};
+		A0522ACC2AE658930045FD66 = {
+			isa = PBXGroup;
+			children = (
+				A0522AD72AE658930045FD66 /* Munchee */,
+				A0522B2F2AE937A40045FD66 /* MockData */,
+				A0522AE92AE658970045FD66 /* MuncheeTests */,
+				A0522AF32AE658970045FD66 /* MuncheeUITests */,
+				A0522AD62AE658930045FD66 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0522AD62AE658930045FD66 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0522AD52AE658930045FD66 /* Munchee.app */,
+				A0522AE62AE658960045FD66 /* MuncheeTests.xctest */,
+				A0522AF02AE658970045FD66 /* MuncheeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0522AD72AE658930045FD66 /* Munchee */ = {
+			isa = PBXGroup;
+			children = (
+				A0522B6C2AEA7A050045FD66 /* Info.plist */,
+				A0522AD82AE658930045FD66 /* MuncheeApp.swift */,
+				A0522ADA2AE658930045FD66 /* ContentView.swift */,
+				A0522B6D2AEAA5970045FD66 /* Order */,
+				A0522B742AEAA64F0045FD66 /* Delivery */,
+				A0522B752AEFC10F0045FD66 /* Formatting */,
+				A0522ADC2AE658960045FD66 /* Assets.xcassets */,
+				A0522AE12AE658960045FD66 /* Munchee.entitlements */,
+				A0522ADE2AE658960045FD66 /* Preview Content */,
+			);
+			path = Munchee;
+			sourceTree = "<group>";
+		};
+		A0522ADE2AE658960045FD66 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A0522ADF2AE658960045FD66 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A0522AE92AE658970045FD66 /* MuncheeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0522AEA2AE658970045FD66 /* MuncheeTests.swift */,
+			);
+			path = MuncheeTests;
+			sourceTree = "<group>";
+		};
+		A0522AF32AE658970045FD66 /* MuncheeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0522AF42AE658970045FD66 /* MuncheeUITests.swift */,
+				A0522AF62AE658970045FD66 /* MuncheeUITestsLaunchTests.swift */,
+			);
+			path = MuncheeUITests;
+			sourceTree = "<group>";
+		};
+		A0522B2F2AE937A40045FD66 /* MockData */ = {
+			isa = PBXGroup;
+			children = (
+				A0522B302AE937B70045FD66 /* MockData.swift */,
+			);
+			path = MockData;
+			sourceTree = "<group>";
+		};
+		A0522B6D2AEAA5970045FD66 /* Order */ = {
+			isa = PBXGroup;
+			children = (
+				A044D5D82AF80B9500E077EC /* SelectRestaurant */,
+				A044D5D92AF80B9E00E077EC /* EditOrder */,
+				A044D5DC2AF80BD100E077EC /* ConfirmOrder */,
+				A044D5DD2AF80BD800E077EC /* Pay */,
+				A044D5DE2AF80BE500E077EC /* Paid */,
+			);
+			path = Order;
+			sourceTree = "<group>";
+		};
+		A0522B742AEAA64F0045FD66 /* Delivery */ = {
+			isa = PBXGroup;
+			children = (
+				A0522B082AE674320045FD66 /* DeliveryView.swift */,
+			);
+			path = Delivery;
+			sourceTree = "<group>";
+		};
+		A0522B752AEFC10F0045FD66 /* Formatting */ = {
+			isa = PBXGroup;
+			children = (
+				A0522B762AEFC1220045FD66 /* CurrencyFormatter.swift */,
+			);
+			path = Formatting;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0522AD42AE658930045FD66 /* Munchee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0522AFA2AE658970045FD66 /* Build configuration list for PBXNativeTarget "Munchee" */;
+			buildPhases = (
+				A0522AD12AE658930045FD66 /* Sources */,
+				A0522AD22AE658930045FD66 /* Frameworks */,
+				A0522AD32AE658930045FD66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Munchee;
+			packageProductDependencies = (
+				A0522B0E2AE6780B0045FD66 /* MuncheeModel */,
+				A0522B192AE67A950045FD66 /* MuncheeModel */,
+				A0522B1C2AE67B4D0045FD66 /* MuncheeModel */,
+				A044D5E42AF811C200E077EC /* MuncheeModel */,
+			);
+			productName = Munchee;
+			productReference = A0522AD52AE658930045FD66 /* Munchee.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0522AE52AE658960045FD66 /* MuncheeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0522AFD2AE658970045FD66 /* Build configuration list for PBXNativeTarget "MuncheeTests" */;
+			buildPhases = (
+				A0522AE22AE658960045FD66 /* Sources */,
+				A0522AE32AE658960045FD66 /* Frameworks */,
+				A0522AE42AE658960045FD66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0522AE82AE658960045FD66 /* PBXTargetDependency */,
+			);
+			name = MuncheeTests;
+			productName = MuncheeTests;
+			productReference = A0522AE62AE658960045FD66 /* MuncheeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0522AEF2AE658970045FD66 /* MuncheeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0522B002AE658970045FD66 /* Build configuration list for PBXNativeTarget "MuncheeUITests" */;
+			buildPhases = (
+				A0522AEC2AE658970045FD66 /* Sources */,
+				A0522AED2AE658970045FD66 /* Frameworks */,
+				A0522AEE2AE658970045FD66 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0522AF22AE658970045FD66 /* PBXTargetDependency */,
+			);
+			name = MuncheeUITests;
+			productName = MuncheeUITests;
+			productReference = A0522AF02AE658970045FD66 /* MuncheeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0522ACD2AE658930045FD66 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					A0522AD42AE658930045FD66 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					A0522AE52AE658960045FD66 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A0522AD42AE658930045FD66;
+					};
+					A0522AEF2AE658970045FD66 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = A0522AD42AE658930045FD66;
+					};
+				};
+			};
+			buildConfigurationList = A0522AD02AE658930045FD66 /* Build configuration list for PBXProject "Munchee" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0522ACC2AE658930045FD66;
+			packageReferences = (
+				A044D5E32AF811C200E077EC /* XCRemoteSwiftPackageReference "MuncheeModel" */,
+			);
+			productRefGroup = A0522AD62AE658930045FD66 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0522AD42AE658930045FD66 /* Munchee */,
+				A0522AE52AE658960045FD66 /* MuncheeTests */,
+				A0522AEF2AE658970045FD66 /* MuncheeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0522AD32AE658930045FD66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0522AE02AE658960045FD66 /* Preview Assets.xcassets in Resources */,
+				A0522ADD2AE658960045FD66 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0522AE42AE658960045FD66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0522AEE2AE658970045FD66 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0522AD12AE658930045FD66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0522B152AE679230045FD66 /* EditOrderView.swift in Sources */,
+				A044D5E22AF80C1E00E077EC /* PaidOrderView.swift in Sources */,
+				A0522B092AE674320045FD66 /* DeliveryView.swift in Sources */,
+				A0522B172AE679330045FD66 /* SelectRestaurantView.swift in Sources */,
+				A0522B732AEAA61B0045FD66 /* AvailableProductView.swift in Sources */,
+				A0522ADB2AE658930045FD66 /* ContentView.swift in Sources */,
+				A0522B312AE937B70045FD66 /* MockData.swift in Sources */,
+				A0522B6F2AEAA5BB0045FD66 /* OrderModifiers.swift in Sources */,
+				A044D5DB2AF80BCB00E077EC /* ConfirmOrderView.swift in Sources */,
+				A0522AD92AE658930045FD66 /* MuncheeApp.swift in Sources */,
+				A044D5E02AF80C1300E077EC /* PayOrderView.swift in Sources */,
+				A0522B712AEAA5EA0045FD66 /* AddedProductView.swift in Sources */,
+				A0522B772AEFC1230045FD66 /* CurrencyFormatter.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0522AE22AE658960045FD66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0522AEB2AE658970045FD66 /* MuncheeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0522AEC2AE658970045FD66 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0522AF72AE658970045FD66 /* MuncheeUITestsLaunchTests.swift in Sources */,
+				A0522AF52AE658970045FD66 /* MuncheeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0522AE82AE658960045FD66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0522AD42AE658930045FD66 /* Munchee */;
+			targetProxy = A0522AE72AE658960045FD66 /* PBXContainerItemProxy */;
+		};
+		A0522AF22AE658970045FD66 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0522AD42AE658930045FD66 /* Munchee */;
+			targetProxy = A0522AF12AE658970045FD66 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A0522AF82AE658970045FD66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A0522AF92AE658970045FD66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A0522AFB2AE658970045FD66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Munchee/Munchee.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Munchee/Preview Content\"";
+				DEVELOPMENT_TEAM = 3RR8WDK6W2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Munchee/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.munchee.Munchee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		A0522AFC2AE658970045FD66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = Munchee/Munchee.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Munchee/Preview Content\"";
+				DEVELOPMENT_TEAM = 3RR8WDK6W2;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Munchee/Info.plist;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.munchee.Munchee;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		A0522AFE2AE658970045FD66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RR8WDK6W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.munchee.MuncheeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Munchee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Munchee";
+			};
+			name = Debug;
+		};
+		A0522AFF2AE658970045FD66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RR8WDK6W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 13.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.munchee.MuncheeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Munchee.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Munchee";
+			};
+			name = Release;
+		};
+		A0522B012AE658970045FD66 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RR8WDK6W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.munchee.MuncheeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Munchee;
+			};
+			name = Debug;
+		};
+		A0522B022AE658970045FD66 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3RR8WDK6W2;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.munchee.MuncheeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = Munchee;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0522AD02AE658930045FD66 /* Build configuration list for PBXProject "Munchee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0522AF82AE658970045FD66 /* Debug */,
+				A0522AF92AE658970045FD66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0522AFA2AE658970045FD66 /* Build configuration list for PBXNativeTarget "Munchee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0522AFB2AE658970045FD66 /* Debug */,
+				A0522AFC2AE658970045FD66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0522AFD2AE658970045FD66 /* Build configuration list for PBXNativeTarget "MuncheeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0522AFE2AE658970045FD66 /* Debug */,
+				A0522AFF2AE658970045FD66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0522B002AE658970045FD66 /* Build configuration list for PBXNativeTarget "MuncheeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0522B012AE658970045FD66 /* Debug */,
+				A0522B022AE658970045FD66 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		A044D5E32AF811C200E077EC /* XCRemoteSwiftPackageReference "MuncheeModel" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:LucasVanDongen/MuncheeModel.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 1.0.9;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		A044D5E42AF811C200E077EC /* MuncheeModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = A044D5E32AF811C200E077EC /* XCRemoteSwiftPackageReference "MuncheeModel" */;
+			productName = MuncheeModel;
+		};
+		A0522B0E2AE6780B0045FD66 /* MuncheeModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MuncheeModel;
+		};
+		A0522B192AE67A950045FD66 /* MuncheeModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MuncheeModel;
+		};
+		A0522B1C2AE67B4D0045FD66 /* MuncheeModel */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = MuncheeModel;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = A0522ACD2AE658930045FD66 /* Project object */;
+}
